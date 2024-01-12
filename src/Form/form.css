@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Lato&family=Oswald:wght@300;400&family=Poppins:wght@300&family=Roboto+Condensed&family=Roboto:ital,wght@1,100&display=swap");
+
+.form-container {
+  display: flex;
+  color: aliceblue;
+  min-height: 90vh;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #242424;
+  align-items: center;
+}
+
+.container-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-input label {
+  font-size: 1.5rem;
+  font-family: "Lato", sans-serif;
+}
+
+.container-input input {
+  font-size: 1.2rem;
+  padding: 0 1.5rem;
+  margin-top: 1rem;
+  color: #fff;
+  border: none;
+  background-color: #242424;
+  border-bottom: 1px solid rgb(241, 111, 23);
+  outline: none;
+  font-family: "Lato", sans-serif;
+}
+.btn-container {
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btn-submit {
+  font-family: "Lato", sans-serif;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1rem;
+  font-weight: 500;
+
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  color: #fff;
+}
+.btn-submit:hover {
+  border-color: rgb(241, 111, 23);
+}
+
+.btn-delete {
+  font-family: "Lato", sans-serif;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  padding: 0.4rem;
+  margin-left: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+
+  background-color: rgb(156, 16, 16);
+
+  cursor: pointer;
+  transition: border-color 0.25s;
+  color: #fff;
+}
+.btn-delete:hover {
+  border-color: rgb(241, 111, 23);
+}
+
+p {
+  font-size: 1.5rem;
+  font-family: "Lato", sans-serif;
+}
+
+.list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, orange, red);
+  min-height: 40vh;
+  width: 15%;
+  margin: 1rem;
+  border: 2px solid red;
+  border-radius: 15px;
+}
+
+ul li {
+  font-size: 1.2rem;
+  list-style: decimal;
+  font-family: "Lato", sans-serif;
+}
+
+@media (max-width: 800px) {
+  .list-container {
+    width: 80%;
+  }
+}
