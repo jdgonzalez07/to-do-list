@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+
 import "./presentation.css";
 
 function Presentation() {
